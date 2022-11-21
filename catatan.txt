@@ -1,0 +1,32 @@
+package use (React Router ✔, PropTypes✔, React Icons ✔)
+
+RESTFUL API SUMBER DATA = https://notes-api.dicoding.dev/v1✔
+
+Feature :
+	- Registrasi & auth✔
+	- Daftar Catatan✔
+	- Catatan terarsip & Non arsip ✔
+	- Detail catatan ✔
+	- Hapus catatan ✔
+	- mode dark/light ✔
+	- ubah bahasa (id/en) ✔
+
+User Exp : Loading Page✔
+
+Registrasi & auth (
+	- custom hooks component input ✔
+	- Menyimpan akses token localStorage (auth)✔
+	- validasi login & simpan user === 'auth' ? 'auth' : 'nonAuth' ✔
+	-Form (
+		- nama✔
+		- email✔
+		- password✔
+		- confirm password✔
+	      )
+	- Logout & menghapus auth user tersimpan✔
+)
+
+Security : {
+	- Feature 1 on access user auth / !auth path access login & register ✔
+	- validasi properti ✔
+}
